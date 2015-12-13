@@ -1,0 +1,78 @@
+{  # Begin document
+   "categories" : [
+                   {
+                    "shortName" : "forsale",
+                    "displayName" : "For sale",
+                    "icon"        : "http://.../"
+                   },
+                   ...
+                   ]
+                     
+   # Begin feed
+   "flyers" : 
+              [
+               # Begin list of flyers
+                  {
+                    "id"         : "43355",    # Required, unique
+                    "category"   : ["for sale"], # At least 1 required
+                    "sticky"     : 1/0,        # Decided by server; 
+                                               # only one allowed for now;
+                                               # ignore for now.
+                    "titleArea" : { 
+                                   "title"  :  "Old Milk Cans", # Required,
+                                                                # larger font 
+                                   "subtitle": [ # Rendered vertically on left
+                                                  "$20", 
+                                                  "5 miles away",
+                                                   ... 
+                                                ], # Server decides on how
+                                                   # to split; smaller font 
+                                   "posted"  :  "2013-05-10" # Date (YYYY-mm-dd); required, 
+                                                             # rendered on 
+                                                             # right
+                                   },
+
+                    "bodyArea" :   { "description" : "Blablabla" }, # Main text - only seen in detail view
+                    "mediaArea"   :  [
+                                      # Media to show
+                                      # Always shown in the same place relative to the rest
+                                      # of flyer
+                                      # Multiple media shown as gallery - left-right swipe changes,
+                                      # dots show that there are multiple media
+                                      # Currently limited to video or image 
+                                      # Images can have extension: jpg, png, gif
+                                      # Videos can have extensions: flv, mp4
+                                      # Extensions always lowercase
+                                      # Other extensions not allowed
+                                      "http://localhost/abc/xyz.jpg",
+                                      "http://localhost/abc/aaa.mp4",
+                                      ...
+                                      ],
+                    "contactArea" : [  # Gallery if more than one (with dots) - left-right swipe changes
+                                    {
+                                       "img"  : "http://..../", # QR code
+                                       "map"  : "Google Map -- Only one of "img|map" allowed -- NOT NOW :)
+                                       "text" : "Scott (650) 444-5555 
+                                    } ,
+                                    ...
+                                    ],
+                   }, # End of flyer
+                   ...
+               ], # End list of flyers,
+
+             "premium" : [ # Max of 2 items
+                         {
+                         vastUrl : "http://.../ ", # For now assume no VPAID
+                         qr : "http:// " # Ignore for now; talk to Regis where to put it
+                         },
+                         ...
+                         ],
+             "news" :   [
+                        {  # Placeholder - talk to Regis - for scrolling feed on the bottom 
+                           "summary"  :  "Police looking for Urmach",
+                           "url"  : "http://.../"  # HTML to show in a div
+                        }
+                        ]
+     }
+            
+

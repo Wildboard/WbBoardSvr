@@ -1,0 +1,58 @@
+{ 
+"feed_start_date" : "2013-06-16",
+"feed_end_date"   : "2013-06-25",
+"inventory_start_date" : "2013-06-16",
+"inventory_end_date"   : "2013-06-25",
+
+"flyers" : 
+[
+ {
+  "id"         : "1",
+  "category"   : ["events"], 
+  "sticky"     : 0,
+  "titleArea"  : { 
+     "title"    :  "NorCal Auto Swap Meet",
+     "subtitle" : [ 
+                    "Saturday, July 21st, 2013", 
+                    "San Mateo Event Center",
+                    "2 miles away"
+                  ],
+     "posted"    :  "2013-06-25",
+     "sort_date" :  "2013-07-21"
+                },
+
+
+ "bodyArea" :    { 
+          "description" : "A traditional automotive swap meet for car people, by car people. Over 2,000 vendor spaces. Rod, Classic and Collector Car Corral. Collector Motorcycles Too! Great food. Entry only $8.00. Under 12 free. Tons of parking."
+                 }, 
+
+ "mediaArea"   : [
+                  "http://feed.wildboard.net/sample/norcal-auto-swap-meet.jpg"
+                 ],
+
+ "contactArea" : [  
+                    {
+                      "img"  : "http://feed.wildboard.net/sample/norcal-auto-swap-meet-qr.png", 
+                      "text" : "Saturday, July 21st, 2013 San Mateo Event Center"
+                    }
+                  ]
+  },
+],
+
+"premium" : [
+             {
+              "vastUrl" : "http://ad3.liverail.com/?LR_PUBLISHER_ID=1331&LR_CAMPAIGN_ID=228&LR_SCHEMA=vast2", 
+              "qr" : "http://feed.wildboard.net/sample/concierge-qr.png" 
+             }
+            ],
+
+"news" :   [
+             { 
+                "summary" : "Wildboard unveiled at Kaffeehaus!",
+                "url"  : "http://www.wildboard.net/"
+             }
+           ]
+}
+
+            
+

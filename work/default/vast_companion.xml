@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VAST version="2.0">
+<Ad id="Adotube">
+<InLine>
+
+<AdSystem version="3.0">Adotube</AdSystem><AdTitle><![CDATA[Adotube]]></AdTitle><Description><![CDATA[]]></Description>
+
+<Impression><![CDATA[http://localhost/log/?data=test1]]>
+</Impression>
+<Impression><![CDATA[http://localhost/log/?data=test2]]>
+</Impression>
+
+
+<Creatives>
+	<Creative sequence="1" id="oRYYzvQ">
+		<Linear>
+			<Duration>00:00:15</Duration>
+			<TrackingEvents>
+				<Tracking event="firstQuartile"><![CDATA[http://localhost/log/?data=video1Q]]></Tracking>
+				<Tracking event="firstQuartile"><![CDATA[http://localhost/log/?data=video1Q_twice]]></Tracking>
+				<Tracking event="midpoint"><![CDATA[http://localhost/log/?data=videoMidpoint]]></Tracking>
+				<Tracking event="thirdQuartile"><![CDATA[http://localhost/log/?data=thirdQuartile]]></Tracking>
+				<Tracking event="complete"><![CDATA[http://localhost/log/?data=videoEnd]]></Tracking>
+			</TrackingEvents>
+			<MediaFiles>
+				<MediaFile delivery="progressive" bitrate="512" width="640" height="360" type="video/mp4"><![CDATA[http://localhost/default/demo.mp4]]></MediaFile>
+			</MediaFiles>
+		</Linear>
+	</Creative>
+	<Creative>
+		<CompanionAds required="any">
+			<Companion id="2">
+				<StaticResource  type="image/png" width="330" height="330"> 
+	<![CDATA[http://localhost/default/wildboardqr.png]]>
+				</StaticResource>
+			</Companion>
+		</CompanionAds>
+	</Creative>
+</Creatives>
+
+</InLine>
+</Ad>
+</VAST>

@@ -1,0 +1,86 @@
+{
+  "icon_all" : "icon-all.png",
+  "icon_all_selected" : "icon-all-selected.png",
+  "categories" : { 
+                 "events" : {
+                             "icon" : "icon-events.png", 
+                             "icon_selected" : "icon-events-selected.png"
+                            },
+                 "forsale" : {
+                              "icon" : "icon-forsale.png",
+                              "icon_selected" : "icon-forsale-selected.png"
+                              },
+                 "services" : {
+                               "icon" : "icon-services.png",
+                               "icon_selected" : "icon-services-selected.png" 
+                              },
+                 "nonprofit" : {
+                                "icon" : "icon-nonprofit.png",
+                                "icon_selected" : "icon-nonprofit-selected.png"
+                               }
+                 },
+ "latest" : "2012-09-28",
+ "earliest" : "2012-01-01",
+ "flyers" : [
+              {
+               "id"         : "230123431618914",
+               "category"   : "forsale",
+               "title"      : "Specialized Epic MTB - 2010",
+               "subtitle"   : "$2100",
+               "location"   : "San Jose, CA",
+               "distance"   : "30 miles",
+               "posted"     : "2012-09-01",
+               "text"       : "2012 LARGE 19in -Epic bike for sale. It is in Mint condition and blablabla loren ipsum",
+               "image1"     : "flyer-bike-small.png",
+               "image2"     : "bike-img2.png",
+               "fullscreen" : "xyz.png",
+               "details" :   { 
+                      "Contact" : { 
+                                   "text" : "Lance Armstrong 650 555 1212", 
+                                   "qr" : "qrcontact.png" 
+                                  }, 
+                      "Location" : {
+                                      "text"  : "Come view it on Oct.22",
+                                      "qr"    : "qrcal.png"
+                                   }
+                             }
+              },
+              {
+               "id"         : "230123431618914",
+               "category"   : "events",
+               "title"      : "Art and Pumpkin Festival",
+               "subtitle"   : "Sat, Aug 12, Half Moon Bay, CA",
+               "location"   : "Half Moon Bay, CA",
+               "distance"   : "15 miles",
+               "posted"     : "2012-09-02",
+               "text"       : "2012 LARGE 19in -Epic bike for sale. It is in Mint condition and blablabla loren ipsum",
+               "image1"     : "flyer-pumkin-small.png",
+               "image2"     : "bike-img2.png",
+              },
+              {
+               "id"         : "230123431618914",
+               "category"   : "events",
+               "title"      : "26th Connoiseurs Market",
+               "subtitle"   : "Sat, Oct 12, Menlo Park, CA",
+               "location"   : "Menlo Park, CA",
+               "distance"   : "5 miles",
+               "posted"     : "2012-10-02",
+               "text"       : "ASDF",
+               "image1"     : "flyer-market-small.png",
+               "image2"     : "bike-img2.png",
+              },
+              {
+               "id"         : "230123431618914",
+               "category"   : "forsale",
+               "title"      : "3 Old Milk Cans",
+               "subtitle"   : "$20",
+               "location"   : "Daly City, CA",
+               "distance"   : "10 miles",
+               "posted"     : "2012-10-12",
+               "text"       : "ASDF",
+               "image1"     : "flyer-cans-small.png",
+               "image2"     : "bike-img2.png",
+              }
+]
+}
+              

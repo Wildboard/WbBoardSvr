@@ -1,0 +1,159 @@
+{
+  "icon_all" : "icon-all.png",
+  "icon_all_selected" : "icon-all-selected.png",
+  "categories" : { 
+                 "events" : {
+                             "icon" : "http://localhost/grisha/data/assets/icon-events.png", 
+                             "icon_selected" : "http://localhost/grisha/data/assets/icon-events-selected.png"
+                            },
+                 "forsale" : {
+                              "icon" : "http://localhost/grisha/data/assets/icon-forsale.png",
+                              "icon_selected" : "http://localhost/grisha/data/assets/icon-forsale-selected.png"
+                              },
+                 "services" : {
+                               "icon" : "http://localhost/grisha/data/assets/icon-services.png",
+                               "icon_selected" : "http://localhost/grisha/data/assets/icon-services-selected.png" 
+                              },
+                 "nonprofit" : {
+                                "icon" : "http://localhost/grisha/data/assets/icon-nonprofit.png",
+                                "icon_selected" : "http://localhost/grisha/data/assets/icon-nonprofit-selected.png"
+                               }
+                 },
+ "latest" : "2012-09-28",
+ "earliest" : "2012-01-01",
+ "flyers" : [
+				
+				{
+               "id"         : "8", 
+               "category"   : "forsale",
+               "title"      : "8.  Old Milk Cans",
+               "subtitle"   : "$20",
+               "location"   : "Daly City, CA",
+               "distance"   : "10 miles away",
+               "posted"     : "2012-10-12",
+               "text"       : "ASDF",
+               "image1"     : "http://localhost/grisha/data/assets/flyer-cans-small.png",
+               "image2"     : "http://localhost/grisha/data/assets/bike-img2.png"
+              },
+              {
+               "id"         : "8",
+               "category"   : "forsale",
+               "title"      : "8. Specialized Epic MTB - 2010",
+               "subtitle"   : "$2100",
+               "location"   : "San Jose, CA",
+               "distance"   : "30 miles away",
+               "posted"     : "2012-09-01",
+               "text"       : "2012 LARGE 19in -Epic bike for sale. It is in Mint condition and blablabla loren ipsum",
+               "image1"     : "http://localhost/grisha/data/assets/flyer-bike-small.png",
+               "image2"     : "http://localhost/grisha/data/assets/bike-img2.png",
+               "fullscreen" : "xyz.png",
+               "details" :   { 
+                      "Contact" : { 
+                                   "text" : "Lance Armstrong 650 555 1212", 
+                                   "qr" : "qrcontact.png" 
+                                  }, 
+                      "Location" : {
+                                      "text"  : "Come view it on Oct.22",
+                                      "qr"    : "qrcal.png"
+                                   }
+                             }
+              },
+              
+			  {
+               "id"         : "1",
+               "category"   : "forsale",
+               "title"      : "1. Specialized Epic MTB - 2010",
+               "subtitle"   : "$2100",
+               "location"   : "San Jose, CA",
+               "distance"   : "30 miles away",
+               "posted"     : "2012-09-01",
+               "text"       : "2012 LARGE 19in -Epic bike for sale. It is in Mint condition and blablabla loren ipsum",
+               "image1"     : "http://localhost/grisha/data/assets/flyer-bike-small.png",
+               "image2"     : "http://localhost/grisha/data/assets/bike-img2.png",
+               "fullscreen" : "xyz.png",
+               "details" :   { 
+                      "Contact" : { 
+                                   "text" : "Lance Armstrong 650 555 1212", 
+                                   "qr" : "qrcontact.png" 
+                                  }, 
+                      "Location" : {
+                                      "text"  : "Come view it on Oct.22",
+                                      "qr"    : "qrcal.png"
+                                   }
+                             }
+              },
+              {
+               "id"         : "2",
+               "category"   : "events",
+               "title"      : "2. Art and Pumpkin Festival",
+               "subtitle"   : "Sat , Aug 12, Half Moon Bay, CA",
+               "location"   : "Half Moon Bay, CA",
+               "distance"   : "15 miles away",
+               "posted"     : "2012-09-02",
+               "text"       : "2012 LARGE 19in -Epic bike for sale. It is in Mint condition and blablabla loren ipsum",
+               "image1"     : "http://localhost/grisha/data/assets/flyer-pumpkin-small.png",
+               "image2"     : "http://localhost/grisha/data/assets/bike-img2.png"
+              },
+              {
+               "id"         : "3", 
+               "category"   : "events",
+               "title"      : "3. 26th Connoiseurs Market",
+               "subtitle"   : "Sat, Oct 12, Menlo Park, CA",
+               "location"   : "Menlo Park, CA",
+               "distance"   : "5 miles away",
+               "posted"     : "2012-10-02",
+               "text"       : "ASDF",
+               "image1"     : "http://localhost/grisha/data/assets/flyer-market-small.png",
+               "image2"     : "http://localhost/grisha/data/assets/bike-img2.png"
+              },
+              {
+               "id"         : "4", 
+               "category"   : "forsale",
+               "title"      : "4.  Old Milk Cans",
+               "subtitle"   : "$20",
+               "location"   : "Daly City, CA",
+               "distance"   : "10 miles away",
+               "posted"     : "2012-10-12",
+               "text"       : "ASDF",
+               "image1"     : "http://localhost/grisha/data/assets/flyer-cans-small.png",
+               "image2"     : "http://localhost/grisha/data/assets/bike-img2.png"
+              },
+			  {
+               "id"         : "5", 
+               "category"   : "forsale",
+               "title"      : "5. milk Cans",
+               "subtitle"   : "$120",
+               "location"   : "Daly City, CA",
+               "distance"   : "10 miles away",
+               "posted"     : "2012-10-12",
+               "text"       : "ASDF",
+               "image1"     : "http://localhost/grisha/data/assets/flyer-market-small.png",
+               "image2"     : "http://localhost/grisha/data/assets/bike-img2.png"
+              },
+    	  {
+               "id"         : "6", 
+               "category"   : "forsale",
+               "title"      : "6. Other",
+               "subtitle"   : "$20",
+               "location"   : "Daly City, CA",
+               "distance"   : "10 miles away",
+               "posted"     : "2012-10-12",
+               "text"       : "ASDF",
+               "image1"     : "http://localhost/grisha/data/assets/flyer-market-small.png",
+               "image2"     : "http://localhost/grisha/data/assets/bike-img2.png"
+              },
+    	  {
+               "id"         : "7", 
+               "category"   : "forsale",
+               "title"      : "asdfadf6. Other",
+               "subtitle"   : "$20",
+               "location"   : "Daly City, CA",
+               "distance"   : "10 miles away",
+               "posted"     : "2012-10-12",
+               "text"       : "ASDF",
+               "image1"     : "http://localhost/grisha/data/assets/flyer-market-small.png",
+               "image2"     : "http://localhost/grisha/data/assets/bike-img2.png"
+              }
+ ]
+}
+          

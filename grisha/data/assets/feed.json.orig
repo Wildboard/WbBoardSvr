@@ -1,0 +1,152 @@
+{
+  "icon_all" : "nav_all.png",
+  "categories" : { 
+                 "events" : {
+                             "icon" : "assets/nav_events.png"
+                            },
+                 "forsale" : {
+                              "icon" : "assets/nav_forsales.png"
+                              },
+                 "services" : {
+                               "icon" : "assets/nav_services.png"
+                              },
+                 "nonprofit" : {
+                                "icon" : "assets/nav_nonprofit.png"
+                               }
+                 },
+ "latest" : "2012-09-28",
+ "earliest" : "2012-01-01",
+ "flyers" : [
+              {
+               "id"         : "1",
+               "category"   : "forsale",
+               "title"      : "Specialized Epic MTB - 2010",
+               "subtitle"   : "$2100",
+               "location"   : "San Jose, CA",
+               "distance"   : "30 miles away",
+               "posted"     : "2012-09-01",
+               "text"       : "2012 LARGE 19in -Epic bike for sale. It is in Mint condition and blablabla loren ipsum",
+               "image1"     : "feed/tile_mtb.png",
+               "image2"     : "feed/tile_mtb.png",
+               "fullscreen" : "xyz.png",
+               "details" :   { 
+                      "Contact" : { 
+                                   "text" : "Lance Armstrong 650 555 1212", 
+                                   "qr" : "qrcontact.png" 
+                                  }, 
+                      "Location" : {
+                                      "text"  : "Come view it on Oct.22",
+                                      "qr"    : "qrcal.png"
+                                   }
+                             }
+              },
+              {
+               "id"         : "2",
+               "category"   : "events",
+               "title"      : "Art and Pumpkin Festival",
+               "subtitle"   : "Sat, Aug 12, Half Moon Bay, CA",
+               "location"   : "Half Moon Bay, CA",
+               "distance"   : "15 miles away",
+               "posted"     : "2012-09-02",
+               "text"       : "2012 LARGE 19in -Epic bike for sale. It is in Mint condition and blablabla loren ipsum",
+               "image1"     : "feed/tile_artpumpkins.png",
+               "image2"     : "feed/tile_artpumpkins.png"
+              },
+              {
+               "id"         : "3", 
+               "category"   : "events",
+               "title"      : "26th Connoiseurs Market",
+               "subtitle"   : "Sat, Oct 12, Menlo Park, CA",
+               "location"   : "Menlo Park, CA",
+               "distance"   : "5 miles away",
+               "posted"     : "2012-10-02",
+               "text"       : "ASDF",
+               "image1"     : "feed/tile_connoisseurs.png",
+               "image2"     : "feed/tile_connoisseurs.png"
+              },
+              {
+               "id"         : "4", 
+               "category"   : "forsale",
+               "title"      : "3 Old Milk Cans",
+               "subtitle"   : "$20",
+               "location"   : "Daly City, CA",
+               "distance"   : "10 miles away",
+               "posted"     : "2012-10-12",
+               "text"       : "ASDF",
+               "image1"     : "feed/tile_milk.png",
+               "image2"     : "feed/tile_milk.png"
+              },
+              {
+               "id"         : "5",
+               "category"   : "forsale",
+               "title"      : "Specialized Epic MTB - 2010",
+               "subtitle"   : "$2100",
+               "location"   : "San Jose, CA",
+               "distance"   : "30 miles away",
+               "posted"     : "2012-09-01",
+               "text"       : "2012 LARGE 19in -Epic bike for sale. It is in Mint condition and blablabla loren ipsum",
+               "image1"     : "feed/tile_mtb.png",
+               "image2"     : "feed/tile_mtb.png",
+               "fullscreen" : "xyz.png",
+               "details" :   { 
+                      "Contact" : { 
+                                   "text" : "Lance Armstrong 650 555 1212", 
+                                   "qr" : "qrcontact.png" 
+                                  }, 
+                      "Location" : {
+                                      "text"  : "Come view it on Oct.22",
+                                      "qr"    : "qrcal.png"
+                                   }
+                             }
+              },
+              {
+               "id"         : "6",
+               "category"   : "events",
+               "title"      : "Art and Pumpkin Festival",
+               "subtitle"   : "Sat, Aug 12, Half Moon Bay, CA",
+               "location"   : "Half Moon Bay, CA",
+               "distance"   : "15 miles away",
+               "posted"     : "2012-09-02",
+               "text"       : "2012 LARGE 19in -Epic bike for sale. It is in Mint condition and blablabla loren ipsum",
+               "image1"     : "feed/tile_artpumpkins.png",
+               "image2"     : "feed/tile_artpumpkins.png"
+              },
+              {
+               "id"         : "7", 
+               "category"   : "events",
+               "title"      : "26th Connoiseurs Market",
+               "subtitle"   : "Sat, Oct 12, Menlo Park, CA",
+               "location"   : "Menlo Park, CA",
+               "distance"   : "5 miles away",
+               "posted"     : "2012-10-02",
+               "text"       : "ASDF",
+               "image1"     : "feed/tile_connoisseurs.png",
+               "image2"     : "feed/tile_connoisseurs.png"
+              },
+              {
+               "id"         : "8", 
+               "category"   : "forsale",
+               "title"      : "3 Old Milk Cans",
+               "subtitle"   : "$20",
+               "location"   : "Daly City, CA",
+               "distance"   : "10 miles away",
+               "posted"     : "2012-10-12",
+               "text"       : "ASDF",
+               "image1"     : "feed/tile_milk.png",
+               "image2"     : "feed/tile_milk.png"
+              },
+              {
+               "id"         : "9", 
+               "category"   : "forsale",
+               "title"      : "3 Old Milk Cans",
+               "subtitle"   : "$20",
+               "location"   : "Daly City, CA",
+               "distance"   : "10 miles away",
+               "posted"     : "2012-10-12",
+               "text"       : "ASDF",
+               "image1"     : "feed/boar.png",
+               "image2"     : "feed/boar.png"
+              }
+]
+}
+              
